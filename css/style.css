@@ -1,0 +1,217 @@
+/* RESET CSS START  */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* RESET CSS END  */
+
+
+
+/* HELPER CLASSES BEGIN  */
+
+.allignLeft {
+	float: left;
+}
+
+.allignRight {
+	float: right;
+}
+
+.margin-bottom-10 {
+	margin-bottom: 10px;
+}
+
+.margin-bottom-20 {
+	margin-bottom: 20px;
+}
+
+.margin-bottom-30 {
+	margin-bottom: 30px;
+}
+
+.margin-bottom-40 {
+	margin-bottom: 40px;
+}
+
+strong,
+b {
+	font-weight: 700;
+}
+
+em,
+i {
+	font-style: italic;
+}
+
+p,
+ul li,
+ol li {
+		line-height: 23px;
+		font-size: 17px;
+}
+
+/* HELPER CLASSES END  */
+
+
+
+
+
+/* GENERAL RULES */
+
+@font-face {
+	font-family: 'HelveticaNeue-Thin';
+	src: local('HelveticaNeue-Thin.ttf'), url('HelveticaNeue-Thin.ttf') format('truetype');
+}
+
+.container {
+	width: 60%;
+	margin: 300px auto;
+	background: rgba(126,82,32, .7);
+	height: 400px;
+	border-radius: 20px;
+
+}
+
+.container-i{
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+
+body {
+	background-color: rgba(97,77,2,.7);
+	font-family: 'HelveticaNeue-Thin', sans-serif;
+}
+
+
+h1 {
+	font-size: 3rem;
+	width: 40%;
+	display: block;
+	margin: 10px auto;
+	padding-top: 20px;
+	font-family: 'Big Shoulders Stencil Text', cursive;
+	
+}
+
+h3 {
+	width: 40%;
+	font-size: 2rem;
+	margin: 0 auto;
+	font-family: 'Big Shoulders Stencil Text', cursive;
+	position: relative;
+	bottom: 150px;
+	left: 50px;
+}
+
+.container form{
+	width: 70%;
+	margin: 0 auto;
+	display: block;
+
+}
+
+.container form [type=text], .container form [type=email], .container form [type=password]{
+	width: 100%;
+	padding: 7px;
+	margin-top: 20px;
+	background: gray;
+
+}
+
+.container form label{
+	color: white;
+}
+
+.container form  ::placeholder{
+	color: wheat;
+	font-size: 15px;
+}
+
+.container form [type=submit]{
+	padding: 5px;
+	margin-top: 13px;
+	border-radius: 9px;
+}
+
+.container form [type=submit]:hover {
+	background: black;
+	color: wheat;
+	cursor: pointer;
+}
+
+.nav {
+	float: right;
+	width: 20%;
+}
+
+.nav li{
+	display: inline-block;
+	padding-left: 15px;
+	font-family: 'Dancing Script', cursive;
+	font-size: 20px;
+	
+}
+
+.nav a{
+	text-decoration: none;
+	color: rgb(193, 255, 21);
+}
+
+.img a img {
+	width: 6%;
+}
+
+@media (min-width: 992px) {
+	
+}
+
+span {
+	color: rgba(39, 29, 18, 0.7);
+}
+
+.bird {
+	float: right;
+	display: block;
+}
+
